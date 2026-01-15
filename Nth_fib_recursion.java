@@ -13,5 +13,6 @@ public class Nth_fib_recursion {
         System.out.print("Enter the number:-");
         int num = input.nextInt();
         System.out.println(fibonacci(num));
+        input.close();
     }
 }
